@@ -1,0 +1,186 @@
+@import "reset.css";
+
+body {
+  margin: 5%;
+  align-self: center;
+  width: 800px;
+}
+header {
+  height: 50px;
+  position: relative;
+
+}
+
+
+hr {
+  height: 10px;
+  background-image: url(/images/hr-img.png);
+  background-repeat: repeat-x;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%
+
+}
+
+
+#logoName {
+  display: inline-block;
+  margin: 35px 0 0 0;
+}
+
+#deli{
+  display: inline-block;
+  font-family: zapfino;
+}
+
+#logoImage {
+  float: left;
+  margin: 20px;
+}
+
+#media {
+  float:right;
+  margin: 25px 0 0 0;
+}
+
+
+#descripLogo {
+  font-size: 8px;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 1em;
+  color: gray;
+  text-transform: uppercase;
+}
+
+#print {
+  float:right;
+  font-size: 10px;
+}
+
+#cakepic {
+  margin: 40px 0 30px 0;
+}
+
+p {
+  font-size: 1em;
+  text-indent: 15px;
+  letter-spacing: 2px;
+}
+
+#listpic{
+  margin: 20px 0 0 0;
+  background-image: url(/images/list-bg.png);
+  height: 200px;
+}
+
+ul {
+  display: inline-block;
+  font-size: 1.2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li:before
+{
+   content: "\2610";
+   margin-right:5px;
+}
+li:hover:before
+{
+   content: "\2611";
+   margin-right:5px;
+}
+
+#seclist {
+  float: right;
+}
+
+#completeList {
+
+  content: "\2611";
+  text-decoration: line-through;
+  
+}
+/* #vanessa {
+  display: inline-block;
+  
+} */
+
+
+button {
+  background-color: maroon;
+  color: white;
+  padding: 15px;
+  float: right;
+}
+
+#vanpic {
+  float:left;
+  
+}
+
+#footerpara {
+  display: inline-block;
+  width: 60%;
+}
+
+#hr2 {
+  /* height: 30px;
+  background-image: url(/images/small-logo.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+  width: 100%; */
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  
+}
+#copy {
+  text-align: center;
+  color: gray;
+  padding: 5px;
+}
+
+#footpic{
+  z-index: initial;
+  
+}
+.footpic {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+ }
+ .footpic:before,
+ .footpic:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 50%;
+  border-top-style: solid;
+  border-top-width: 1px;
+ }
+ .footpic:before {
+  right: 0.5em;
+  margin-left: -50%;
+ }
+ .footpic:after {
+  left: 0.5em;
+  margin-right: -50%;
+ }
+ img {
+  vertical-align: middle;
+ }
